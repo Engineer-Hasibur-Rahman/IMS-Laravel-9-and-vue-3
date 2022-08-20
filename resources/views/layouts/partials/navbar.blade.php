@@ -19,6 +19,19 @@
                     <span class="text">Manage Categories</span>                 
                 </a>               
             </li>
+            
+            <li class="menu-item ">
+                <a class="menu-link" href="{{ route('brand.index') }}"> <i class="icon material-icons md-shopping_bag"></i>
+                    <span class="text">Manage Brand</span>                 
+                </a>               
+            </li>
+
+            <li class="menu-item ">
+                <a class="menu-link" href="{{ route('sizes.index') }}"> <i class="icon material-icons md-shopping_bag"></i>
+                    <span class="text">Manage Size</span>                 
+                </a>               
+            </li>
+      
       
      
             <li class="menu-item has-submenu">
